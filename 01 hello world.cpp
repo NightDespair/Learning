@@ -132,7 +132,7 @@ int main() {
 			printf("\n");
 
 		}
-		printf("三角形一共有%d个符号\n", ((num1 - 1) * (num1 + 1) + 1));
+		printf("三角形一共有%d个符号\n", (num1*num1));
 		printf("---------------\n导出完成\n");
 		printf("请问您要退出吗y/n\n");
 		while (getchar() != '\n');
